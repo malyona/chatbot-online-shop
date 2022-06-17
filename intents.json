@@ -1,0 +1,50 @@
+{"intents":  [
+    {"tag": "greetings",
+    "patterns": ["hello", "hey", "hi", "good day", "greetings", "how's going?", "what's up?"],
+    "responses": ["Hello!", "Hey!", "What's up?", "What can i do for you?"]
+    },
+    {"tag": "hours",
+    "patterns": ["When arey you guys open", "what are your hours", "hours of open?"],
+    "responses": ["24/7", "we opened everday", "24 hours /day", "we opened for 24/7"]
+    },
+    {"tag": "tutor",
+    "patterns": ["How do I know if the item I'm looking for is still in stock or out of stock?", "Is it the item i searched are avaible?"],
+    "responses": ["For information on stock availability, please search for the item in the search area provided. When found, click on the item to view detailed info. On the product page, information on the availability of the item will appear, namely Ready stock. If the stock runs out, then Stock ready will contain Out Of Stock."]
+    },
+    {"tag": "order",
+    "patterns": ["How do I make a purchase or order goods?", "How do i order this item?", "How to order?"],
+    "responses": ["You just need to click BUY after that select the purchase method."]
+    },
+    {"tag": "delivery",
+    "patterns": ["Where is the delivery location from?", "where is this item shipped from?"],
+    "responses": ["From Bandung."]
+    },
+    {"tag": "payment",
+    "patterns": ["How to pay?", "what payment methods are available?", "what method can I pay for it?"],
+    "responses": ["The payment method is according to the purchase method you choose."]
+    },
+    {"tag": "COD",
+    "patterns": ["Can the payment be COD?"],
+    "responses": ["Yes."]
+    },
+    {"tag": "query",
+    "patterns": ["Is this safe? I'm afraid of being cheated, I've paid and then the item I want isn't there."],
+    "responses": ["We will not deceive you. For those of you who are still hesitant to transact with us, we accept payments via Tokopedia or Shopee."]
+    },
+    {"tag": "stocks",
+    "patterns": ["Hi! Is this product still available?"],
+    "responses": ["Still available, please order."]
+    },
+    {"tag": "qu",
+    "patterns": ["Will the item match the picture?"],
+    "responses": ["The photos we use are original photos/images that we get directly from our factory suppliers."]
+    },
+    {"tag": "quey",
+    "patterns": ["If I don't like the item, can it be returned?"],
+    "responses": ["Items that have been purchased cannot be returned, please customers to be careful before buying."]
+    },
+    {"tag": "goodbye",
+    "patterns": ["goodbye", "See you later", "bye", "have a good day", "see ya"],
+    "responses": ["Goodbye!"]
+}
+]}
